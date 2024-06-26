@@ -9,7 +9,7 @@ public class FlipFitGym {
     private String gymAddress;
     private int numberOfSlots;
     private int cost;
-    private boolean gymStatus;
+    private int gymStatus;
     private String ownerGstNumber;
 
     public FlipFitGym(String gymId, String gymName, String ownerId, String ownerName, String gymAddress, int numberOfSlots, int cost, int gymStatus, String ownerGstNumber) {

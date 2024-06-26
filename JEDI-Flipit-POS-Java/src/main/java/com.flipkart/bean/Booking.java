@@ -10,11 +10,11 @@ public class Booking {
     }
 
     public String getBookingID() {
-        return bookingID;
+        return bookingId;
     }
 
     public void setBookingID(String bookingID) {
-        this.bookingID = bookingID;
+        this.bookingId = bookingID;
     }
 
     public String getUserID() {

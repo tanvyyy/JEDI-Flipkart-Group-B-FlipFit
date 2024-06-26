@@ -1,20 +1,21 @@
 package com.flipkart.bean;
 
 public class Customer extends User {
-    private String customerAddress;
+    private String customerCity;
     private String customerCardNumber;
 
-    public Customer (String customerAddress, String customerCardNumber) {
-        this.customerAddress = customerAddress;
+    public Customer (String userId, String userName, String email, String password, String customerCity, String customerCardNumber) {
+        super(userId, userName, email, password);
+        this.customerCity = customerCity;
         this.customerCardNumber = customerCardNumber;
     }
 
     public String getCustomerAddress() {
-        return customerAddress;
+        return customerCity;
     }
 
     public void setCustomerAddress(String customerAddress) {
-        this.customerAddress = customerAddress;
+        this.customerCity = customerAddress;
     }
 
     public String getCustomerCardNumber() {
